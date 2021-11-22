@@ -6,7 +6,7 @@ body {
 }
 html {
   scroll-behavior: smooth;
-} 
+}
 
 #header-img {
   width: 20%;
@@ -37,10 +37,9 @@ nav ul li a:visited {
   color: #000;
 }
 nav ul li a:hover {
-    font-weight: bold;
-    border-bottom: 5px solid #37b24d;
+  font-weight: bold;
+  border-bottom: 5px solid #37b24d;
 }
-
 
 .container {
   margin: 0 auto;
@@ -62,6 +61,8 @@ section {
 #features {
   background-color: #37b24d;
   padding: 20px 0 20px 0;
+  justify-content: center;
+  display: flex;
 }
 
 #how-it-works {
@@ -74,4 +75,11 @@ section {
 footer {
   padding: 10px 40px;
   background-color: #ddd;
+}
+#email {
+  padding: 10px 60px 10px 10px;
+  border-radius: 5px;
+}
+label {
+  font-size: 24px;
 }
