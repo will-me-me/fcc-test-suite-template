@@ -94,6 +94,22 @@ button {
   cursor: pointer;
 }
 
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    #email{
+        margin-bottom: 20px;
+    }
+    button{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
 footer {
   padding: 10px 40px;
   background-color: #ddd;
