@@ -14,6 +14,8 @@ html {
 
 header {
   background-color: #ddd;
+  position: sticky;
+  top: 0;
 }
 nav {
   display: flex;
@@ -75,21 +77,21 @@ section {
 #email {
   padding: 10px 60px 10px 10px;
   border-radius: 5px;
-    border: none;
+  border: none;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 label {
   font-size: 24px;
 }
 
-button{
-    margin-left: 30px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    background-color: #ddd;
-    cursor: pointer;
+button {
+  margin-left: 30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #ddd;
+  cursor: pointer;
 }
 
 footer {
